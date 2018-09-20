@@ -4,9 +4,15 @@
   "private": true,
   "dependencies": {
     "mdbreact": "^4.7.1",
+<<<<<<< HEAD
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.4"
+=======
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "1.1.5"
+>>>>>>> a6b25339eda9b8510f18f64d8d91ff4afe8ff4fc
   },
   "scripts": {
     "start": "react-scripts start",
