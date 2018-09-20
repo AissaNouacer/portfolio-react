@@ -1,0 +1,65 @@
+#apppage .gradient {
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    45deg,
+    from(rgba(42, 27, 161, 0.7)),
+    to(rgba(29, 210, 177, 0.7))
+  );
+  background: -o-linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+  background: linear-gradient(
+    to 45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+}
+
+#apppage .view {
+  background-image: url("Aissa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+#apppage h6 {
+  line-height: 1.7;
+}
+div .navbar {
+  background-color: rgba(29, 210, 177, 0.7) 100% !important;
+}
+#apppage .navbar {
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#apppage .top-nav-collapse {
+  background: #3f729b !important;
+}
+
+@media (max-width: 768px) {
+  #apppage .navbar:not(.top-nav-collapse) {
+    background: #3f729b !important;
+  }
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
+}
